@@ -10,10 +10,14 @@ body {
   padding: 0;
   width: 400px;
   height: 200px;
-  text-align: center;
 }
 
 h1 {
   border: 3px coral dashed;
   border-radius: 5%;
+}
+
+.main {
+  font-family: cursive;
+  text-align: left;
 }
