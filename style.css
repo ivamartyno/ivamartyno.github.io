@@ -11,3 +11,7 @@ body {
   width: 400px;
   height: 200px;
 }
+
+h1 {
+  border: 3px; coral; dashed;
+}
