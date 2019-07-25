@@ -19,5 +19,7 @@ h1 {
 
 .main {
   font-family: cursive;
+  width: 400px;
+  margin: 0 auto;
   text-align: left;
 }
