@@ -20,7 +20,7 @@
     
     <form>
       <fieldset>
-        <legend>Fields all around...&#133</legend>
+        <legend>Fields all around&#133</legend>
         First field:<br />
         <input type="text" name="firstfield" /><br />
 
@@ -30,8 +30,16 @@
         <input type="radio" name="select" value="one" checked />One<br />
         <input type="radio" name="select" value="two" />Two<br />
         <input type="radio" name="select" value="three" />Three<br />
+        
+        <select name="cars" size="3" multiple>
+          <option value="volvo">Volvo</option>
+          <option value="bmw">BMW</option>
+          <option value="fiat" selected>Fiat</option>
+          <option value="toyota>Toyota</option>
+        </select>
 
         <input type="submit" value="Submit" />
+        
       </fieldset>
     </form>
     
