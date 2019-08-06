@@ -38,11 +38,17 @@
           <option value="toyota">Toyota</option>
         </select>
         
+        <br />
+        
         <textarea name="More text" rows="3" cols="12">
           Default text&#133: go on
         </textarea>
         
+        <br />
+        
         <button type="button" onclick="alert('I am a button, do NOT press!')">Press&#133</button>
+        
+        <br />
         
         <input list="browsers" />
         <datalist id="browers">
@@ -51,6 +57,8 @@
           <option value="Chrome" />
         </datalist>
         
+        <br />
+        
         0
         <input type="range" id="a" name="a" value="40" />
         100 +
@@ -58,6 +66,33 @@
         =
         <output name="x" for="a b" />
         <br />
+        
+        <input type="checkbox" name="color1" value="red" />Red<br />
+        <input type="checkbox" name="color2" value="green" />Green<br />
+        <input type="checkbox" name="color3" value="blue" /> Blue <br />
+        
+        Choose your favourite colour:
+        <input type="color" name="chosencolor" /><br />
+        
+        Month:
+        <input type="month" name="month" /><br />
+        
+        Date:
+        <input type="date" name="date" min="1901-01-01" max="2100-31-12"/><br />
+        
+        Date and time:
+        <input type="datetime-local" name="localtime" /><br />
+        
+        Email:
+        <input type="email" name="email" /><br />
+        
+        Select a file:
+        <input type="file" name="chosenfile" /><br />
+        
+        Choose a number:
+        <input type="number" name="chosennumber" min="1" max="10" />
+        
+        <input type="reset" />
 
         <input type="submit" value="Submit" />
         
