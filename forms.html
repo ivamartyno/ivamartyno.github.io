@@ -18,7 +18,7 @@
   
   <body>
     
-    <form>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
       <fieldset>
         <legend>Fields all around&#133</legend>
         First field:<br />
@@ -43,6 +43,21 @@
         </textarea>
         
         <button type="button" onclick="alert('I am a button, do NOT press!')">Press&#133</button>
+        
+        <input list="browsers" />
+        <datalist id="browers">
+          <option value="IE" />
+          <option vaue="MF" />
+          <option value="Chrome" />
+        </datalist>
+        
+        0
+        <input type="range" id="a" name="a" value="40" />
+        100 +
+        <input type="range" id="b" name="b" value="30" />
+        =
+        <output name="x" for="a b" />
+        <br />
 
         <input type="submit" value="Submit" />
         
