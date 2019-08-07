@@ -5,35 +5,10 @@
 }
 
 body {
-  color: #F0FFFF;
-   /* Old browsers */
   background: #141E30;
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(-45deg, #35577D, #141E30);
-  margin: 0;
-  padding: 0;
-  width: 400px;
-  height: 200px;
 }
 
-h1 {
-  border: 3px coral dashed;
-  border-radius: 5%;
-  position: relative;
-}
-
-.main {
-  font-family: cursive;
-  width: 400px;
-  margin: 0 auto;
-  text-align: left;
-  position: relative;
-}
-
-p {
-  position: relative;
-  top: 30px;
-  left: 50px;
+h1, p {
+  color: pink;
+  text-align: center;
 }
