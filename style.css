@@ -10,5 +10,6 @@ body {
 
 h1, p {
   color: #268bd2;
+  background-color: #eee8d5;
   text-align: center;
 }
