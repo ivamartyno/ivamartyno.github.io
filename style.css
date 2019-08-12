@@ -16,6 +16,8 @@ h1, p, div {
 
 div {
   width: 300px;
+  margin: 15px;
   padding: 20px;
   border: 10px solid #cb4b16;
+  box-sizing: border-box;
 }
