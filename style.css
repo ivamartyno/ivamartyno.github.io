@@ -23,4 +23,11 @@ div {
   box-sizing: border-box;
   outline: inset #6c71c4 5px;
   outline-offset: 4px;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-indent: 40px;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  line-height: 1.6;
+  text-shadow: 3px 2px #657b83;
 }
