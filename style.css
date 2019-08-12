@@ -21,6 +21,6 @@ div {
   padding: 20px;
   border: 10px solid #b58900;
   box-sizing: border-box;
-  outline: inset #6c71c4 medium;
+  outline: inset #6c71c4 5px;
   outline-offset: 4px;
 }
