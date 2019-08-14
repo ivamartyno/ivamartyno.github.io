@@ -30,8 +30,5 @@ div {
   word-spacing: 10px;
   line-height: 1.6;
   text-shadow: 1px 1px #657b83;
-  font-family: Verdana;
-  font-size: 0.7934em;
-  font-style: normal;
-  font-weight: normal;
+  font: 0.75em normal Verdana;
 }
